@@ -64,3 +64,40 @@ body {
   color: var(--text-secondary-color);
   font-weight: var(--menu-text-weight);
 }
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 2.3rem 0;
+  }
+
+  .header-container {
+    padding: 0 3.75rem;
+  }
+
+  .header-menu-links label {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .header-links {
+    display: block;
+    position: static;
+    width: auto;
+  }
+
+  .menu-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .menu-item {
+    padding: 1rem 0;
+  }
+
+  .menu-link {
+    font-size: 24px;
+  }
+}
