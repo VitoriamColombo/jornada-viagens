@@ -9,9 +9,9 @@
 }
 
 .hero-text {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: var(--text-weight);
-  line-height: 32px;
+  line-height: 2rem;
   padding: 0 1.5rem;
   margin: 5.5rem auto;
 }
@@ -19,19 +19,19 @@
 /*Tablet*/
 @media screen and (min-width: 768px) {
   .hero-text {
-    font-size: 32px;
-    line-height: 150%;
+    font-size: 2rem;
+    line-height: 1.5;
     padding: 0;
-    margin: 88px 60px;
+    margin: 5.5rem 3.75rem;
   }
 }
 
 /*Desktop*/
 @media screen and (min-width: 1440px) {
   .hero-text {
-    font-size: 32px;
-    line-height: 150%;
+    font-size: 2rem;
+    line-height: 1.5;
     padding: 0;
-    margin: 104px 120px;
+    margin: 6.5rem 7.5rem;
   }
 }
