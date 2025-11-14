@@ -10,6 +10,11 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.header-logo-desktop {
+  display: none;
+}
+
 /* Quando o checkbox do menu estiver marcado, exibimos a navegação (menu aberto) */
 .menu-toggle:checked ~ .header-links {
   display: block;
@@ -72,5 +77,21 @@
 
   .menu-link {
     font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header-container {
+    padding: 0 7.5rem;
+  }
+
+  .header-logo-desktop {
+    display: block;
+  }
+  .header-logo-mobile {
+    display: none;
+  }
+  .menu-link:hover {
+    color: var(--secondary-color);
   }
 }
