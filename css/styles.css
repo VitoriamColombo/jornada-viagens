@@ -36,7 +36,12 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+/* ao ser selecionado o checkbox, vai aparecer a lista do menu */
+.menu-toggle:checked ~ .header-links {
+  display: block;
+}
+/* quando não for selecionado não vai aparecer o checkbox */
 .header-links {
   display: none;
 }
+
