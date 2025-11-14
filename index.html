@@ -15,29 +15,47 @@
       <div class="header-container">
         <a href="index.html" title="Voltar para a página inicial">
           <img
+            class="header-logo-desktop"
+            src="imagens/bussola-texto-jornada-branco.png"
+            alt="Bússola do logo Jornada Viagens: cor Branca" />
+          <img
+            class="header-logo-mobile"
             src="imagens/bussola-jornada-branco.png"
             alt="Bússola do logo Jornada Viagens: cor Branca"
-          />
-        </a>
+        /></a>
+
         <div class="header-menu-links">
-          <img src="imagens/menu.png" alt="menu" />
+          <label for="menu"><img src="imagens/menu.png" alt="menu" /></label>
+          <input class="menu-toggle" type="checkbox" id="menu" hidden />
+          <!-- Checkbox usado para controlar a abertura e fechamento do menu (fica oculto visualmente) -->
           <nav class="header-links">
-            <ul>
-              <li>
-                <a href="blog.html" target="_blank" title="Acessar Blog"
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a
+                  class="menu-link"
+                  href="blog.html"
+                  target="_blank"
+                  title="Acessar Blog"
                   >Blog</a
                 >
               </li>
-              <li>
+
+              <li class="menu-item">
                 <a
+                  class="menu-link"
                   href="pacotes.html"
                   target="_blank"
                   title="Acessar Pacotes de Viagem"
                   >Pacotes de viagem</a
                 >
               </li>
-              <li>
-                <a href="contato.html" target="_blank" title="Acessar Contato"
+
+              <li class="menu-item">
+                <a
+                  class="menu-link"
+                  href="contato.html"
+                  target="_blank"
+                  title="Acessar Contato"
                   >Contato</a
                 >
               </li>
