@@ -1,0 +1,26 @@
+.offers {
+}
+
+.offers-title {
+  margin: 0 24px;
+}
+
+.offers-title-h2 {
+  font-size: 1.75rem;
+  font-weight: var(--title-weight);
+  text-align: center;
+}
+
+.divider {
+  width: 180px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 16px auto 2rem; /* centraliza */
+  border: none; /* remove a borda padrão do hr */
+}
+
+@media screen and (min-width: 768px) {
+  .offers-title-h2 {
+    font-size: 2rem;
+  }
+}

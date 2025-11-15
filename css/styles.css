@@ -1,5 +1,6 @@
 @import url(header.css);
 @import url(hero.css);
+@import url(offers.css);
 
 :root {
   --primary-color: #b81515;
@@ -26,4 +27,5 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: var(--text-primary-color);
 }
