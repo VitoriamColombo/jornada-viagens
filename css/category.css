@@ -1,0 +1,63 @@
+.category-title {
+  margin: 88px 24px;
+  text-align: center;
+}
+
+.category-title-h2 {
+  font-size: 2rem;
+  font-weight: var(--title-weight);
+  text-align: center;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+  margin: 0 24px;
+}
+
+.category-card {
+  height: 220px;
+  background-color: var(--background-secondary-color);
+  border-radius: 8px;
+}
+
+.category-card-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.category-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain; /* garante proporção */
+}
+
+.category-title-h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  color: var(--text-primary-color);
+}
+
+@media screen and (min-width: 768px) {
+  .categories {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 32px 60px 88px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .categories {
+    max-width: 1197px; /* valor que está no Figma */
+    margin: 32px auto 88px;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+}

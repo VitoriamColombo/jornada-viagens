@@ -1,6 +1,7 @@
 @import url(header.css);
 @import url(hero.css);
 @import url(offers.css);
+@import url(category.css);
 
 :root {
   --primary-color: #b81515;
